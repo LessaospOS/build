@@ -33,7 +33,7 @@ PRODUCT_PACKAGES += \
     SettingsIntelligence \
     frameworks-base-overlays
 
-ifeq ($(AWAKEN_BUILD),)
+ifeq ($(LESSAOSP_BUILD),)
 PRODUCT_PACKAGES += \
     LatinIME
 endif
